@@ -1,4 +1,4 @@
 #Tomcat publish data
-#Sun Jun 26 17:43:37 EEST 2016
+#Sun Jun 26 18:56:55 EEST 2016
 org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\Yoana\\.m2\\repository\\org\\apache\\tomcat\\tomcat-jasper\\8.0.32\\tomcat-jasper-8.0.32.jar=WEB-INF/lib/tomcat-jasper-8.0.32.jar
 org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\Yoana\\.m2\\repository\\org\\apache\\tomcat\\tomcat-websocket\\8.0.32\\tomcat-websocket-8.0.32.jar=WEB-INF/lib/tomcat-websocket-8.0.32.jar

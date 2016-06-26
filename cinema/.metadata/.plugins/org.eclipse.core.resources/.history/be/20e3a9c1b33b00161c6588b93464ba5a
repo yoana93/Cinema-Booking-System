@@ -1,0 +1,18 @@
+package dao;
+
+import java.util.Date;
+import java.util.List;
+
+import model.Movie;
+
+public interface IMovieDAO {
+
+	void addMovie(Movie movie);
+
+	List<Movie> getAll();
+
+	List<Movie> getMoviesAfter(Date startingTime);
+
+	Movie findMovieByName(String movieName);
+
+}
