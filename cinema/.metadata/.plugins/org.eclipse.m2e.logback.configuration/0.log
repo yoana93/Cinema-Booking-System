@@ -1,0 +1,143 @@
+2016-06-25 23:29:21,286 [Worker-100] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-jdbc/8.0.32/tomcat-jdbc-8.0.32.jar
+2016-06-25 23:29:21,303 [Worker-92] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-jsp-api/8.0.32/tomcat-jsp-api-8.0.32.jar
+2016-06-25 23:29:21,213 [Worker-94] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-api/8.0.32/tomcat-api-8.0.32.jar
+2016-06-25 23:29:21,213 [Worker-104] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-websocket/8.0.32/tomcat-websocket-8.0.32.jar
+2016-06-25 23:29:21,214 [Worker-101] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-jni/8.0.32/tomcat-jni-8.0.32.jar
+2016-06-25 23:29:21,213 [Worker-90] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-jasper-el/8.0.32/tomcat-jasper-el-8.0.32.jar
+2016-06-25 23:29:21,213 [Worker-88] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jdt/core/compiler/ecj/4.4.2/ecj-4.4.2.jar
+2016-06-25 23:29:21,214 [Worker-96] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-dbcp/8.0.32/tomcat-dbcp-8.0.32.jar
+2016-06-25 23:29:21,213 [Worker-98] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-i18n-fr/8.0.32/tomcat-i18n-fr-8.0.32.jar
+2016-06-25 23:29:21,214 [Worker-102] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-util-scan/8.0.32/tomcat-util-scan-8.0.32.jar
+2016-06-25 23:29:21,214 [Worker-84] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-catalina-ha/8.0.32/tomcat-catalina-ha-8.0.32.jar
+2016-06-25 23:29:21,284 [Worker-93] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-servlet-api/8.0.32/tomcat-servlet-api-8.0.32.jar
+2016-06-25 23:29:21,213 [Worker-87] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-catalina/8.0.32/tomcat-catalina-8.0.32.jar
+2016-06-25 23:29:21,213 [Worker-99] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-i18n-ja/8.0.32/tomcat-i18n-ja-8.0.32.jar
+2016-06-25 23:29:21,214 [Worker-85] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-annotations-api/8.0.32/tomcat-annotations-api-8.0.32.jar
+2016-06-25 23:29:21,213 [Worker-103] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-util/8.0.32/tomcat-util-8.0.32.jar
+2016-06-25 23:29:21,213 [Worker-97] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-i18n-es/8.0.32/tomcat-i18n-es-8.0.32.jar
+2016-06-25 23:29:21,213 [Worker-79] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-storeconfig/8.0.32/tomcat-storeconfig-8.0.32.jar
+2016-06-25 23:29:21,213 [Worker-91] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-jasper/8.0.32/tomcat-jasper-8.0.32.jar
+2016-06-25 23:29:21,213 [Worker-105] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-websocket-api/8.0.32/tomcat-websocket-api-8.0.32.jar
+2016-06-25 23:29:21,213 [Worker-95] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-coyote/8.0.32/tomcat-coyote-8.0.32.jar
+2016-06-25 23:29:21,213 [Worker-89] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-el-api/8.0.32/tomcat-el-api-8.0.32.jar
+2016-06-25 23:29:21,389 [Worker-86] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-tribes/8.0.32/tomcat-tribes-8.0.32.jar
+2016-06-25 23:29:21,416 [Worker-82] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-catalina-ant/8.0.32/tomcat-catalina-ant-8.0.32.jar
+2016-06-25 23:29:21,975 [Worker-92] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-jsp-api/8.0.32/tomcat-jsp-api-8.0.32.jar
+2016-06-25 23:29:22,000 [Worker-89] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-el-api/8.0.32/tomcat-el-api-8.0.32.jar
+2016-06-25 23:29:22,007 [Worker-103] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-util/8.0.32/tomcat-util-8.0.32.jar
+2016-06-25 23:29:22,011 [Worker-90] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-jasper-el/8.0.32/tomcat-jasper-el-8.0.32.jar
+2016-06-25 23:29:22,204 [Worker-82] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-catalina-ant/8.0.32/tomcat-catalina-ant-8.0.32.jar
+2016-06-25 23:29:22,257 [Worker-97] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-i18n-es/8.0.32/tomcat-i18n-es-8.0.32.jar
+2016-06-25 23:29:22,307 [Worker-96] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-dbcp/8.0.32/tomcat-dbcp-8.0.32.jar
+2016-06-25 23:29:22,317 [Worker-79] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-storeconfig/8.0.32/tomcat-storeconfig-8.0.32.jar
+2016-06-25 23:29:22,329 [Worker-102] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-util-scan/8.0.32/tomcat-util-scan-8.0.32.jar
+2016-06-25 23:29:22,320 [Worker-100] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-jdbc/8.0.32/tomcat-jdbc-8.0.32.jar
+2016-06-25 23:29:22,401 [Worker-104] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-websocket/8.0.32/tomcat-websocket-8.0.32.jar
+2016-06-25 23:29:22,426 [Worker-86] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-tribes/8.0.32/tomcat-tribes-8.0.32.jar
+2016-06-25 23:29:22,868 [Worker-105] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-websocket-api/8.0.32/tomcat-websocket-api-8.0.32.jar
+2016-06-25 23:29:22,935 [Worker-85] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-annotations-api/8.0.32/tomcat-annotations-api-8.0.32.jar
+2016-06-25 23:29:22,944 [Worker-99] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-i18n-ja/8.0.32/tomcat-i18n-ja-8.0.32.jar
+2016-06-25 23:29:22,982 [Worker-98] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-i18n-fr/8.0.32/tomcat-i18n-fr-8.0.32.jar
+2016-06-25 23:29:23,072 [Worker-93] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-servlet-api/8.0.32/tomcat-servlet-api-8.0.32.jar
+2016-06-25 23:29:23,087 [Worker-94] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-api/8.0.32/tomcat-api-8.0.32.jar
+2016-06-25 23:29:23,119 [Worker-101] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-jni/8.0.32/tomcat-jni-8.0.32.jar
+2016-06-25 23:29:23,151 [Worker-84] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-catalina-ha/8.0.32/tomcat-catalina-ha-8.0.32.jar
+2016-06-25 23:29:23,310 [Worker-91] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-jasper/8.0.32/tomcat-jasper-8.0.32.jar
+2016-06-25 23:29:23,605 [Worker-88] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jdt/core/compiler/ecj/4.4.2/ecj-4.4.2.jar
+2016-06-25 23:29:23,649 [Worker-87] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-catalina/8.0.32/tomcat-catalina-8.0.32.jar
+2016-06-25 23:29:23,805 [Worker-95] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-coyote/8.0.32/tomcat-coyote-8.0.32.jar
+2016-06-25 23:30:01,405 [Worker-94] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-annotations-api/8.0.32/tomcat-annotations-api-8.0.32.pom
+2016-06-25 23:30:01,614 [Worker-94] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-annotations-api/8.0.32/tomcat-annotations-api-8.0.32.pom
+2016-06-25 23:30:01,804 [Worker-94] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-catalina-ant/8.0.32/tomcat-catalina-ant-8.0.32.pom
+2016-06-25 23:30:01,965 [Worker-94] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-catalina-ant/8.0.32/tomcat-catalina-ant-8.0.32.pom
+2016-06-25 23:30:02,102 [Worker-94] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-util/8.0.32/tomcat-util-8.0.32.pom
+2016-06-25 23:30:02,277 [Worker-94] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-util/8.0.32/tomcat-util-8.0.32.pom
+2016-06-25 23:30:02,365 [Worker-94] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-juli/8.0.32/tomcat-juli-8.0.32.pom
+2016-06-25 23:30:02,459 [Worker-94] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-juli/8.0.32/tomcat-juli-8.0.32.pom
+2016-06-25 23:30:02,571 [Worker-94] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-util-scan/8.0.32/tomcat-util-scan-8.0.32.pom
+2016-06-25 23:30:02,663 [Worker-94] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-util-scan/8.0.32/tomcat-util-scan-8.0.32.pom
+2016-06-25 23:30:02,831 [Worker-94] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-api/8.0.32/tomcat-api-8.0.32.pom
+2016-06-25 23:30:02,942 [Worker-94] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-api/8.0.32/tomcat-api-8.0.32.pom
+2016-06-25 23:30:03,107 [Worker-94] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-servlet-api/8.0.32/tomcat-servlet-api-8.0.32.pom
+2016-06-25 23:30:03,178 [Worker-94] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-servlet-api/8.0.32/tomcat-servlet-api-8.0.32.pom
+2016-06-25 23:30:03,372 [Worker-94] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-catalina-ha/8.0.32/tomcat-catalina-ha-8.0.32.pom
+2016-06-25 23:30:03,532 [Worker-94] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-catalina-ha/8.0.32/tomcat-catalina-ha-8.0.32.pom
+2016-06-25 23:30:03,617 [Worker-94] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-coyote/8.0.32/tomcat-coyote-8.0.32.pom
+2016-06-25 23:30:03,693 [Worker-94] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-coyote/8.0.32/tomcat-coyote-8.0.32.pom
+2016-06-25 23:30:03,841 [Worker-94] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-jni/8.0.32/tomcat-jni-8.0.32.pom
+2016-06-25 23:30:04,000 [Worker-94] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-jni/8.0.32/tomcat-jni-8.0.32.pom
+2016-06-25 23:30:04,129 [Worker-94] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-tribes/8.0.32/tomcat-tribes-8.0.32.pom
+2016-06-25 23:30:04,242 [Worker-94] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-tribes/8.0.32/tomcat-tribes-8.0.32.pom
+2016-06-25 23:30:04,344 [Worker-94] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-catalina/8.0.32/tomcat-catalina-8.0.32.pom
+2016-06-25 23:30:04,471 [Worker-94] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-catalina/8.0.32/tomcat-catalina-8.0.32.pom
+2016-06-25 23:30:04,709 [Worker-94] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-jsp-api/8.0.32/tomcat-jsp-api-8.0.32.pom
+2016-06-25 23:30:04,920 [Worker-94] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-jsp-api/8.0.32/tomcat-jsp-api-8.0.32.pom
+2016-06-25 23:30:05,016 [Worker-94] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-el-api/8.0.32/tomcat-el-api-8.0.32.pom
+2016-06-25 23:30:05,108 [Worker-94] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-el-api/8.0.32/tomcat-el-api-8.0.32.pom
+2016-06-25 23:30:05,281 [Worker-94] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-storeconfig/8.0.32/tomcat-storeconfig-8.0.32.pom
+2016-06-25 23:30:05,457 [Worker-94] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-storeconfig/8.0.32/tomcat-storeconfig-8.0.32.pom
+2016-06-25 23:30:05,587 [Worker-94] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jdt/core/compiler/ecj/4.4.2/ecj-4.4.2.pom
+2016-06-25 23:30:05,676 [Worker-94] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jdt/core/compiler/ecj/4.4.2/ecj-4.4.2.pom
+2016-06-25 23:30:05,775 [Worker-94] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-jasper-el/8.0.32/tomcat-jasper-el-8.0.32.pom
+2016-06-25 23:30:05,853 [Worker-94] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-jasper-el/8.0.32/tomcat-jasper-el-8.0.32.pom
+2016-06-25 23:30:05,951 [Worker-94] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-jasper/8.0.32/tomcat-jasper-8.0.32.pom
+2016-06-25 23:30:06,044 [Worker-94] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-jasper/8.0.32/tomcat-jasper-8.0.32.pom
+2016-06-25 23:30:06,235 [Worker-94] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-dbcp/8.0.32/tomcat-dbcp-8.0.32.pom
+2016-06-25 23:30:06,343 [Worker-94] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-dbcp/8.0.32/tomcat-dbcp-8.0.32.pom
+2016-06-25 23:30:06,499 [Worker-94] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-i18n-es/8.0.32/tomcat-i18n-es-8.0.32.pom
+2016-06-25 23:30:06,663 [Worker-94] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-i18n-es/8.0.32/tomcat-i18n-es-8.0.32.pom
+2016-06-25 23:30:06,859 [Worker-94] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-i18n-fr/8.0.32/tomcat-i18n-fr-8.0.32.pom
+2016-06-25 23:30:07,019 [Worker-94] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-i18n-fr/8.0.32/tomcat-i18n-fr-8.0.32.pom
+2016-06-25 23:30:07,245 [Worker-94] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-i18n-ja/8.0.32/tomcat-i18n-ja-8.0.32.pom
+2016-06-25 23:30:07,399 [Worker-94] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-i18n-ja/8.0.32/tomcat-i18n-ja-8.0.32.pom
+2016-06-25 23:30:07,502 [Worker-94] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-jdbc/8.0.32/tomcat-jdbc-8.0.32.pom
+2016-06-25 23:30:07,598 [Worker-94] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-jdbc/8.0.32/tomcat-jdbc-8.0.32.pom
+2016-06-25 23:30:07,684 [Worker-94] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-websocket/8.0.32/tomcat-websocket-8.0.32.pom
+2016-06-25 23:30:07,865 [Worker-94] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-websocket/8.0.32/tomcat-websocket-8.0.32.pom
+2016-06-25 23:30:07,952 [Worker-94] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-websocket-api/8.0.32/tomcat-websocket-api-8.0.32.pom
+2016-06-25 23:30:08,042 [Worker-94] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-websocket-api/8.0.32/tomcat-websocket-api-8.0.32.pom
+2016-06-25 23:30:09,142 [Worker-94] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-juli/8.0.32/tomcat-juli-8.0.32.jar
+2016-06-25 23:30:09,667 [Worker-94] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-juli/8.0.32/tomcat-juli-8.0.32.jar
+2016-06-25 23:30:27,631 [Worker-87] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: CinemaBookingSystem:CinemaBookingSystem:0.0.1-SNAPSHOT @ C:\Users\Yoana\cinema\CinemaBookingSystem\pom.xml.
+2016-06-25 23:30:41,389 [Worker-82] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-25 23:30:41,424 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Yoana\cinema\CinemaBookingSystem\src\main\resources
+2016-06-25 23:30:41,443 [Worker-82] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-25 23:30:41,478 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Yoana\cinema\CinemaBookingSystem\src\test\resources
+2016-06-25 23:30:41,643 [Worker-87] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CinemaBookingSystem/src
+2016-06-25 23:30:41,646 [Worker-87] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /CinemaBookingSystem/src/test/java because it overlaps with /CinemaBookingSystem/src
+2016-06-25 23:30:45,093 [Worker-87] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2016-06-25 23:30:47,172 [Worker-87] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: CinemaBookingSystem:CinemaBookingSystem:0.0.1-SNAPSHOT @ C:\Users\Yoana\cinema\CinemaBookingSystem\pom.xml.
+2016-06-25 23:30:49,814 [Worker-89] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-25 23:30:49,832 [Worker-89] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Yoana\cinema\CinemaBookingSystem\src\main\resources
+2016-06-25 23:30:49,840 [Worker-89] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-25 23:30:49,860 [Worker-89] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Yoana\cinema\CinemaBookingSystem\src\test\resources
+2016-06-25 23:30:49,861 [Worker-89] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of CinemaBookingSystem
+2016-06-25 23:30:49,921 [Worker-89] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for CinemaBookingSystem
+2016-06-25 23:30:50,082 [Worker-89] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-25 23:30:50,249 [Worker-87] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CinemaBookingSystem/src
+2016-06-25 23:30:50,250 [Worker-87] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /CinemaBookingSystem/src/test/java because it overlaps with /CinemaBookingSystem/src
+2016-06-25 23:30:51,295 [Worker-87] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for CinemaBookingSystem
+2016-06-25 23:30:51,345 [Worker-87] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 6 sec
+2016-06-25 23:30:51,667 [Worker-91] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-25 23:30:51,687 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Yoana\cinema\CinemaBookingSystem\src\main\resources
+2016-06-25 23:30:51,713 [Worker-91] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-25 23:30:51,739 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Yoana\cinema\CinemaBookingSystem\src\test\resources
+2016-06-25 23:30:51,745 [Worker-91] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of CinemaBookingSystem
+2016-06-25 23:30:51,745 [Worker-91] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for CinemaBookingSystem
+2016-06-25 23:30:51,751 [Worker-91] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-25 23:34:17,816 [Worker-104] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: CinemaBookingSystem:CinemaBookingSystem:0.0.1-SNAPSHOT @ C:\Users\Yoana\cinema\CinemaBookingSystem\pom.xml.
+2016-06-25 23:34:20,811 [Worker-104] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-25 23:34:20,849 [Worker-104] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Yoana\cinema\CinemaBookingSystem\src\main\resources
+2016-06-25 23:34:20,858 [Worker-104] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-25 23:34:20,872 [Worker-104] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Yoana\cinema\CinemaBookingSystem\src\test\resources
+2016-06-25 23:34:20,879 [Worker-104] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of CinemaBookingSystem
+2016-06-25 23:34:20,879 [Worker-104] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for CinemaBookingSystem
+2016-06-25 23:34:20,885 [Worker-104] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-26 12:32:08,031 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-26 12:32:08,068 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Yoana\cinema\CinemaBookingSystem\src\main\resources
+2016-06-26 12:32:08,074 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-26 12:32:08,085 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Yoana\cinema\CinemaBookingSystem\src\test\resources
+2016-06-26 12:33:33,242 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-26 12:33:33,254 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Yoana\cinema\CinemaBookingSystem\src\main\resources
+2016-06-26 12:33:33,258 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-26 12:33:33,266 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Yoana\cinema\CinemaBookingSystem\src\test\resources
