@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kb-project>
+ <depends-on-projects/>
+ <used-by-projects/>
+ <paths>
+  <path value="C:/Users/Yoana/.m2/repository/org/apache/tomcat/tomcat-el-api/8.0.32/tomcat-el-api-8.0.32.jar"/>
+  <path value="C:/Users/Yoana/Desktop/apache-tomcat-8.0.32/apache-tomcat-8.0.32/lib/tomcat-jni.jar"/>
+  <path value="C:/Users/Yoana/Desktop/apache-tomcat-8.0.32/apache-tomcat-8.0.32/lib/jsp-api.jar"/>
+  <path value="C:/Users/Yoana/Desktop/apache-tomcat-8.0.32/apache-tomcat-8.0.32/lib/websocket-api.jar"/>
+  <path value="C:/Users/Yoana/.m2/repository/org/apache/tomcat/tomcat-servlet-api/8.0.32/tomcat-servlet-api-8.0.32.jar"/>
+  <path value="C:/Users/Yoana/Desktop/apache-tomcat-8.0.32/apache-tomcat-8.0.32/lib/el-api.jar"/>
+  <path value="C:/Users/Yoana/.m2/repository/org/apache/tomcat/tomcat-util/8.0.32/tomcat-util-8.0.32.jar"/>
+  <path value="C:/Users/Yoana/.m2/repository/mysql/mysql-connector-java/5.1.38/mysql-connector-java-5.1.38.jar"/>
+  <path value="C:/Users/Yoana/Desktop/apache-tomcat-8.0.32/apache-tomcat-8.0.32/lib/jasper-el.jar"/>
+  <path value="C:/Users/Yoana/Desktop/apache-tomcat-8.0.32/apache-tomcat-8.0.32/lib/tomcat-coyote.jar"/>
+  <path value="C:/Users/Yoana/.m2/repository/org/apache/tomcat/tomcat-catalina-ha/8.0.32/tomcat-catalina-ha-8.0.32.jar"/>
+  <path value="C:/Users/Yoana/Desktop/apache-tomcat-8.0.32/apache-tomcat-8.0.32/lib/tomcat-websocket.jar"/>
+  <path value="C:/Users/Yoana/.m2/repository/org/apache/tomcat/tomcat-annotations-api/8.0.32/tomcat-annotations-api-8.0.32.jar"/>
+  <path value="C:/Users/Yoana/Desktop/apache-tomcat-8.0.32/apache-tomcat-8.0.32/lib/servlet-api.jar"/>
+  <path value="C:/Users/Yoana/.m2/repository/org/apache/tomcat/tomcat-jsp-api/8.0.32/tomcat-jsp-api-8.0.32.jar"/>
+  <path value="C:/Users/Yoana/.m2/repository/org/apache/tomcat/tomcat-catalina/8.0.32/tomcat-catalina-8.0.32.jar"/>
+  <path value="C:/Users/Yoana/.m2/repository/org/apache/tomcat/tomcat-dbcp/8.0.32/tomcat-dbcp-8.0.32.jar"/>
+  <path value="C:/Users/Yoana/.m2/repository/org/apache/tomcat/tomcat-util-scan/8.0.32/tomcat-util-scan-8.0.32.jar"/>
+  <path value="C:/Users/Yoana/Desktop/apache-tomcat-8.0.32/apache-tomcat-8.0.32/lib/catalina.jar"/>
+  <path value="C:/Users/Yoana/Desktop/apache-tomcat-8.0.32/apache-tomcat-8.0.32/lib/tomcat-i18n-fr.jar"/>
+  <path value="C:/Users/Yoana/Desktop/apache-tomcat-8.0.32/apache-tomcat-8.0.32/lib/catalina-tribes.jar"/>
+  <path value="C:/Users/Yoana/Desktop/apache-tomcat-8.0.32/apache-tomcat-8.0.32/lib/ecj-4.4.2.jar"/>
+  <path value="C:/Users/Yoana/.m2/repository/org/apache/tomcat/tomcat-i18n-es/8.0.32/tomcat-i18n-es-8.0.32.jar"/>
+  <path value="C:/Users/Yoana/.m2/repository/org/apache/tomcat/tomcat-storeconfig/8.0.32/tomcat-storeconfig-8.0.32.jar"/>
+  <path value="C:/Users/Yoana/.m2/repository/org/apache/tomcat/tomcat-tribes/8.0.32/tomcat-tribes-8.0.32.jar"/>
+  <path value="C:/Users/Yoana/.m2/repository/org/eclipse/jdt/core/compiler/ecj/4.4.2/ecj-4.4.2.jar"/>
+  <path value="C:/Users/Yoana/Desktop/apache-tomcat-8.0.32/apache-tomcat-8.0.32/lib/tomcat-i18n-ja.jar"/>
+  <path value="C:/Users/Yoana/.m2/repository/org/apache/tomcat/tomcat-jasper/8.0.32/tomcat-jasper-8.0.32.jar"/>
+  <path value="C:/Users/Yoana/Desktop/apache-tomcat-8.0.32/apache-tomcat-8.0.32/lib/tomcat-jdbc.jar"/>
+  <path value="C:/Users/Yoana/Desktop/apache-tomcat-8.0.32/apache-tomcat-8.0.32/lib/tomcat-util-scan.jar"/>
+  <path value="C:/Users/Yoana/.m2/repository/org/apache/tomcat/tomcat-api/8.0.32/tomcat-api-8.0.32.jar"/>
+  <path value="C:/Users/Yoana/Desktop/apache-tomcat-8.0.32/apache-tomcat-8.0.32/lib/tomcat-dbcp.jar"/>
+  <path value="C:/Users/Yoana/Desktop/apache-tomcat-8.0.32/apache-tomcat-8.0.32/lib/tomcat-api.jar"/>
+  <path value="C:/Users/Yoana/Desktop/apache-tomcat-8.0.32/apache-tomcat-8.0.32/lib/catalina-ant.jar"/>
+  <path value="C:/Users/Yoana/.m2/repository/org/apache/tomcat/tomcat-i18n-fr/8.0.32/tomcat-i18n-fr-8.0.32.jar"/>
+  <path value="C:/Users/Yoana/Desktop/apache-tomcat-8.0.32/apache-tomcat-8.0.32/lib/catalina-storeconfig.jar"/>
+  <path value="C:/Users/Yoana/Desktop/apache-tomcat-8.0.32/apache-tomcat-8.0.32/lib/annotations-api.jar"/>
+  <path value="C:/Users/Yoana/.m2/repository/javax/javaee-api/6.0/javaee-api-6.0.jar">
+   <libraries>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javaee-api-6.0.jar/meta-inf/c-1_0-rt.tld" project="CinemaBookingSystem"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javaee-api-6.0.jar/meta-inf/c-1_0.tld" project="CinemaBookingSystem"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javaee-api-6.0.jar/meta-inf/c.tld" project="CinemaBookingSystem"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javaee-api-6.0.jar/meta-inf/fmt-1_0-rt.tld" project="CinemaBookingSystem"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javaee-api-6.0.jar/meta-inf/fmt-1_0.tld" project="CinemaBookingSystem"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javaee-api-6.0.jar/meta-inf/fmt.tld" project="CinemaBookingSystem"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javaee-api-6.0.jar/meta-inf/fn.tld" project="CinemaBookingSystem"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javaee-api-6.0.jar/meta-inf/html_basic.tld" project="CinemaBookingSystem"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javaee-api-6.0.jar/meta-inf/jsf_core.tld" project="CinemaBookingSystem"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javaee-api-6.0.jar/meta-inf/mojarra_ext.tld" project="CinemaBookingSystem"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javaee-api-6.0.jar/meta-inf/permittedtaglibs.tld" project="CinemaBookingSystem"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javaee-api-6.0.jar/meta-inf/scriptfree.tld" project="CinemaBookingSystem"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javaee-api-6.0.jar/meta-inf/sql-1_0-rt.tld" project="CinemaBookingSystem"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javaee-api-6.0.jar/meta-inf/sql-1_0.tld" project="CinemaBookingSystem"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javaee-api-6.0.jar/meta-inf/sql.tld" project="CinemaBookingSystem"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javaee-api-6.0.jar/meta-inf/x-1_0-rt.tld" project="CinemaBookingSystem"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javaee-api-6.0.jar/meta-inf/x-1_0.tld" project="CinemaBookingSystem"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javaee-api-6.0.jar/meta-inf/x.tld" project="CinemaBookingSystem"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="C:/Users/Yoana/.m2/repository/org/apache/tomcat/tomcat-coyote/8.0.32/tomcat-coyote-8.0.32.jar"/>
+  <path value="C:/Users/Yoana/.m2/repository/org/apache/tomcat/tomcat-juli/8.0.32/tomcat-juli-8.0.32.jar"/>
+  <path value="C:/Users/Yoana/.m2/repository/org/apache/tomcat/tomcat-jni/8.0.32/tomcat-jni-8.0.32.jar"/>
+  <path value="C:/Users/Yoana/.m2/repository/org/apache/tomcat/tomcat-websocket-api/8.0.32/tomcat-websocket-api-8.0.32.jar"/>
+  <path value="C:/Users/Yoana/Desktop/apache-tomcat-8.0.32/apache-tomcat-8.0.32/lib/tomcat-i18n-es.jar"/>
+  <path value="C:/Users/Yoana/.m2/repository/org/apache/tomcat/tomcat-jasper-el/8.0.32/tomcat-jasper-el-8.0.32.jar"/>
+  <path value="C:/Users/Yoana/Desktop/apache-tomcat-8.0.32/apache-tomcat-8.0.32/lib/tomcat-util.jar"/>
+  <path value="C:/Users/Yoana/.m2/repository/org/apache/tomcat/tomcat-catalina-ant/8.0.32/tomcat-catalina-ant-8.0.32.jar"/>
+  <path value="C:/Users/Yoana/.m2/repository/org/apache/tomcat/tomcat-websocket/8.0.32/tomcat-websocket-8.0.32.jar"/>
+  <path value="C:/Users/Yoana/Desktop/apache-tomcat-8.0.32/apache-tomcat-8.0.32/lib/jasper.jar"/>
+  <path value="C:/Users/Yoana/.m2/repository/org/apache/tomcat/tomcat-jdbc/8.0.32/tomcat-jdbc-8.0.32.jar"/>
+  <path value="C:/Users/Yoana/Desktop/apache-tomcat-8.0.32/apache-tomcat-8.0.32/lib/catalina-ha.jar"/>
+  <path value="C:/Users/Yoana/.m2/repository/org/apache/tomcat/tomcat-i18n-ja/8.0.32/tomcat-i18n-ja-8.0.32.jar"/>
+  <path value="C:/Users/Yoana/.m2/repository/javax/persistence/persistence-api/1.0/persistence-api-1.0.jar"/>
+ </paths>
+ <validation>
+  <core validator-id="jsf-verification"/>
+  <core validator-id="jboss.cdi.core"/>
+  <el/>
+ </validation>
+ <aliases/>
+ <includes/>
+ <uris/>
+</kb-project>

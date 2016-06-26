@@ -1,0 +1,15 @@
+package model;
+
+public class Ticket {
+
+	public void setHall(Object object) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void setMovie(Object object) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
