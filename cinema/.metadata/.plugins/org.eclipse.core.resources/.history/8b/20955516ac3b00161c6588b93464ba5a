@@ -106,14 +106,14 @@ public class Movie implements Serializable {
 
 	public Ticket addSoldTicket(Ticket soldTicket) {
 		getSoldTickets().add(soldTicket);
-		soldTicket.setMovieName(this.movieName);
+		soldTicket.setMovie(this);
 
 		return soldTicket;
 	}
 
 	public Ticket removeReservation(Ticket soldTicket) {
 		getSoldTickets().remove(soldTicket);
-		soldTicket.setMovieName(null);
+		soldTicket.setMovie(null);
 
 		return soldTicket;
 	}

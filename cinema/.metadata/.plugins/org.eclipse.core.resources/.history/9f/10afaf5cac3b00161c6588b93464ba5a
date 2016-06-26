@@ -82,12 +82,16 @@ public class Hall implements Serializable {
 
 	public Ticket addFreeSeat(Ticket freeSeat) {
 		getFreeSeats().add(freeSeat);
+		freeSeat.setHall(this);
+		freeSeat.s
 
 		return freeSeat;
 	}
 
 	public Ticket removeFreeSeat(Ticket freeSeat) {
 		getFreeSeats().remove(freeSeat);
+		freeSeat.setHall(null);
+
 		return freeSeat;
 	}
 
