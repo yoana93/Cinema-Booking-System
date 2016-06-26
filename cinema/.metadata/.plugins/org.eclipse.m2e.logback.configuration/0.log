@@ -489,3 +489,11 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: expected st
 2016-06-26 18:56:54,249 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Yoana\Desktop\Cinema-Booking-System\cinema\CinemaBookingSystem\src\main\resources
 2016-06-26 18:56:54,258 [Worker-94] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
 2016-06-26 18:56:54,280 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Yoana\Desktop\Cinema-Booking-System\cinema\CinemaBookingSystem\src\test\resources
+2016-06-26 19:00:12,231 [Worker-97] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-26 19:00:12,236 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Yoana\Desktop\Cinema-Booking-System\cinema\CinemaBookingSystem\src\main\resources
+2016-06-26 19:00:12,258 [Worker-97] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-26 19:00:12,270 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Yoana\Desktop\Cinema-Booking-System\cinema\CinemaBookingSystem\src\test\resources
+2016-06-26 19:00:50,083 [Worker-93] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-26 19:00:50,107 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Yoana\Desktop\Cinema-Booking-System\cinema\CinemaBookingSystem\src\main\resources
+2016-06-26 19:00:50,121 [Worker-93] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-26 19:00:50,145 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Yoana\Desktop\Cinema-Booking-System\cinema\CinemaBookingSystem\src\test\resources

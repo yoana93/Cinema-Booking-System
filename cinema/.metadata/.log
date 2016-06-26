@@ -2339,3 +2339,15 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: expected st
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2016-06-26 18:56:54.269
 !MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-06-26 19:00:12.232
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-06-26 19:00:12.264
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-06-26 19:00:50.085
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-06-26 19:00:50.133
+!MESSAGE Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
