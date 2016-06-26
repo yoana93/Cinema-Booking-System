@@ -1,0 +1,23 @@
+<div ng-controller="MoviesController">
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Gotyanoto Kino</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Movies<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li data-ng-repeat="movie in movies"><a href="">{{movie.name}}</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Make Reservation</a></li>
+      <li class="active"><a href="#">Users</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="views/signUpPage.html"><span class="glyphicon glyphicon-user" ></span> Sign Up</a></li>
+      <li><a href="views/loginPage.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    </ul>
+  </div>
+</nav>
+</div>  
