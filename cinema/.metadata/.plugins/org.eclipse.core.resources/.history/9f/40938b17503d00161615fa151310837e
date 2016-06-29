@@ -1,0 +1,140 @@
+package model;
+
+import java.io.Serializable;
+
+import javax.persistence.*;
+
+import java.util.ArrayList;
+import java.util.List;
+
+
+/**
+ * The persistent class for the HALL database table.
+ * 
+ */
+@Entity
+@Table(name="hall")
+@NamedQuery(name="Hall.findAll", query="SELECT name FROM Hall ")
+public class Hall implements Serializable {
+	private static final long serialVersionUID = 1L;
+
+	@Column(name="name")
+	private String name;
+	
+	@Column(name="row")
+	private int row;
+	
+	@Column(name="col")
+	private int col;
+
+	//bi-directional many-to-one association to Movie
+	@OneToMany(mappedBy="hall")
+	private List<Movie> movies = new ArrayList<>();
+
+	//bi-directional many-to-one association to Seat
+	@OneToMany(mappedBy="hall")
+	private List<Ticket> freeSeats = new ArrayList<>();
+
+	public Hall() {
+	}
+
+	public Hall(String name) {
+		this.name = name;
+	}
+	
+	
+
+	public Hall(String name, int row, int col) {
+		this(name);
+		this.row = row;
+		this.col = col;
+	}
+
+	public String getName() {
+		return this.name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public List<Movie> getMovies() {
+		return this.movies;
+	}
+
+	public void setMovies(List<Movie> movies) {
+		this.movies = movies;
+	}
+
+	public Movie addMovy(Movie movy) {
+		getMovies().add(movy);
+		movy.setHall(this);
+
+		return movy;
+	}
+
+	public Movie removeMovy(Movie movy) {
+		getMovies().remove(movy);
+		movy.setHall(null);
+
+		return movy;
+	}
+
+	public List<Ticket> getFreeSeats() {
+		return this.freeSeats;
+	}
+
+	public void setFreeSeats(List<Ticket> seats) {
+		this.freeSeats = seats;
+	}
+
+	public Ticket addFreeSeat(Ticket freeSeat) {
+		getFreeSeats().add(freeSeat);
+
+		return freeSeat;
+	}
+
+	public Ticket removeFreeSeat(Ticket freeSeat) {
+		getFreeSeats().remove(freeSeat);
+		return freeSeat;
+	}
+
+	
+
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + col;
+		result = prime * result + ((name == null) ? 0 : name.hashCode());
+		result = prime * result + row;
+		return result;
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Hall other = (Hall) obj;
+		if (col != other.col)
+			return false;
+		if (name == null) {
+			if (other.name != null)
+				return false;
+		} else if (!name.equals(other.name))
+			return false;
+		if (row != other.row)
+			return false;
+		return true;
+	}
+
+	@Override
+	public String toString() {
+		return "Hall [name=" + name + "]";
+	}
+
+}

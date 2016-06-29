@@ -9,7 +9,6 @@ import javax.persistence.PersistenceContext;
 import javax.persistence.TypedQuery;
 
 import model.Movie;
-import model.Ticket;
 
 
 @Singleton
@@ -37,19 +36,13 @@ public class MovieDAO {
         return query.getResultList();
     }
     
-    public Movie findMoviebyName(String moviename)
+    public Movie findMovieByName(String moviename)
     {
         String txtQuery = "Select m FROM Movie m WHERE m.movieName=:moviename";
         TypedQuery<Movie>query = em.createQuery(txtQuery,Movie.class);
         query.setParameter("moviename", moviename);
         return query.getSingleResult();
     }
-    
-    public List<Ticket> findBuyedTicketsForTheMovie(Movie m) {
-	String txtQuery = "SELECT t1, t2 FROM sold_ticket t1 inner join film-show t2 on t1.neighbors t2 ";
-	TypedQuery<Ticket> query = em.createQuery(txtQuery, Ticket.class);
-    return query.getResultList();
-}
 
 }
 

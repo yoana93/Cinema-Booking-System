@@ -8,7 +8,6 @@ import javax.persistence.PersistenceContext;
 import javax.persistence.TypedQuery;
 
 import model.Hall;
-import model.Ticket;
 
 @Singleton
 public class HallDAO {
@@ -39,21 +38,6 @@ public class HallDAO {
 			em.flush();
 		}
 	}
-
-	/*public List<Ticket> findFreeSeatsInHall(Movie m) {
-		String txtQuery = "SELECT s FROM Seat s WHERE s.hall = :hall";
-		TypedQuery<Seat> query = em.createQuery(txtQuery, Seat.class);
-		query.setParameter("hall", hall);
-		return querySeat(query);
-	}
-
-	private List<Seat> querySeat(TypedQuery<Seat> query) {
-		try {
-			return query.getResultList();
-		} catch (Exception e) {
-			return null;
-		}
-	}*/
 
 	public Hall findHallByName(String name) {
 		String txtQuery = "SELECT u FROM Hall u WHERE u.name = :name";

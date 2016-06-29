@@ -1,0 +1,143 @@
+package utils;
+
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+import java.util.Date;
+import java.util.List;
+
+import javax.ejb.EJB;
+import javax.ejb.Stateless;
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+
+import dao.HallDAO;
+import dao.MovieDAO;
+import dao.TicketDAO;
+import dao.UserDAO;
+import model.Hall;
+import model.Movie;
+import model.User;
+
+@Stateless
+public class DatabaseUtils {
+    
+    private static User[] USERS = {
+            new User("admin", "admin","admin@test.bg", true),
+            new User("pesho", "123","pesho_hakera@test.bg", false),
+            new User("stamat", "stamat", "stamat_stamatov@test.bg",false)};
+    
+    private static Hall[] HALLS = {
+        	new Hall("Pink", 5, 5), new Hall("Blue",10,10)
+        };
+        
+    String str = "1986-04-08 12:30";
+    static DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm");
+    LocalDateTime dateTime = LocalDateTime.parse(str, formatter);
+    private static Movie[] MOVIES = {
+    		new Movie("Me Before You",LocalDateTime.parse("2016-06-25",formatter), 120, "Louisa Clark must find a "
+    				+ "new job after being laid off from a café. She finds work in taking care of Will Traynor,"
+    				+ " a cynical banker who was completely paralyzed in by a motorcycle accident. At first, "
+    				+ "he reacts coldly to her spunkiness, but they soon become friends and develop feelings "
+    				+ "for each other, even though Louisa has an unthoughtful, marathon-running boyfriend named"
+    				+ " Patrick. Louisa learns that Will has given his parents six months before they must bring "
+    				+ "him to Switzerland for euthanasia. Will cannot deal with the pain and suffering of his disability. Louisa secretly makes it her mission to change his mind and takes him"
+    				+ " on all the adventures that she can to prove that life is worth living. However, at their "
+    				+ "final trip to Mauritius with Will's nurse Nathan, Will confesses he intends to follow "
+    				+ "through with the euthanasia and asks for her to accompany him. She is heartbroken and does "
+    				+ "not speak to him the rest of the trip. After they arrive home, she goes to Switzerland to "
+    				+ "see Will in his final moments. After his death, he bequeaths her enough money her to "
+    				+ "continue her education and instructs her to, 'live well'.", "../../../../WebContent/pictures/me_before_you.jpg", HALLS[0]),
+    		
+    	new Movie("fast and furious", new Date(), null),
+    	new Movie("qko film4e", new Date(), null),
+    	new Movie("maliii", new Date(), null)
+    };
+    
+    private static Reservation[] RESERVATIONS = {
+    	new Reservation(USERS[0], MOVIES[0]),
+    	new Reservation(USERS[0], MOVIES[1]),
+    	new Reservation(USERS[2], MOVIES[2])
+    };
+
+
+    
+  
+//    private static ReservationEntity[] RES_ENTITIES = {
+//    	new ReservationEntity(RESERVATIONS[0], SEATS_1[2]),
+//    	new ReservationEntity(RESERVATIONS[1], SEATS_2[1]),
+//    	new ReservationEntity(RESERVATIONS[2], SEATS_2[3]),
+//    	new ReservationEntity(RESERVATIONS[0], SEATS_1[1]),
+//    	new ReservationEntity(RESERVATIONS[0], SEATS_1[4]),
+//    };
+
+    @PersistenceContext
+    private EntityManager em;
+    
+    @EJB
+    private UserDAO userDAO;
+    
+    @EJB
+    private TicketDAO ticketDAO;
+    
+    @EJB
+    private HallDAO hallDAO;
+    
+    @EJB
+    private MovieDAO movieDAO;
+    
+    @EJB
+   // private ReservationEntityDAO reservationEntityDAO;
+    
+    public void addTestDataToDB() {
+        deleteData();
+        addTestUsers();
+    }
+
+    private void deleteData() {
+        em.createQuery("DELETE FROM Ticket").executeUpdate();
+        em.createQuery("DELETE FROM Movie").executeUpdate();
+        em.createQuery("DELETE FROM Hall").executeUpdate();
+        em.createQuery("DELETE FROM User").executeUpdate();
+   }
+
+    private void addTestUsers() {
+    	MOVIES[0].setHall(HALLS[0]);
+    	MOVIES[1].setHall(HALLS[1]);
+    	MOVIES[2].setHall(HALLS[1]);
+        for (User user : USERS) {
+            userDAO.addUser(user);
+           
+        }
+        
+        for (Hall hall: HALLS) {
+        	hallDAO.addHall(hall);
+        }
+        
+        for (Seat seat: SEATS_1) {
+        	HALLS[0].addSeat(seat);
+        }
+        
+        for (Seat seat: SEATS_2) {
+        	HALLS[1].addSeat(seat);
+        }
+        
+        for (Hall hall: HALLS) {
+        	hallDAO.updateHall(hall);
+        }
+        
+        for (Movie m: MOVIES) {
+        	movieDAO.addMovie(m);
+        }
+        
+        System.out.println("MOVIES[0].ID : " + MOVIES[0].getId());
+        
+        for (Reservation r: RESERVATIONS) {
+        	reservationDAO.addReservation(r);
+        }
+        
+        for (ReservationEntity r: RES_ENTITIES) {
+        	reservationEntityDAO.addEntity(r);
+        }
+    }
+}
+

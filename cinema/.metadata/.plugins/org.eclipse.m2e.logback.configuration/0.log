@@ -497,3 +497,95 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: expected st
 2016-06-26 19:00:50,107 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Yoana\Desktop\Cinema-Booking-System\cinema\CinemaBookingSystem\src\main\resources
 2016-06-26 19:00:50,121 [Worker-93] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
 2016-06-26 19:00:50,145 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Yoana\Desktop\Cinema-Booking-System\cinema\CinemaBookingSystem\src\test\resources
+2016-06-26 19:03:18,466 [Worker-95] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-26 19:03:18,485 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Yoana\Desktop\Cinema-Booking-System\cinema\CinemaBookingSystem\src\main\resources
+2016-06-26 19:03:18,508 [Worker-95] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-26 19:03:18,602 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Yoana\Desktop\Cinema-Booking-System\cinema\CinemaBookingSystem\src\test\resources
+2016-06-26 19:06:08,243 [Worker-95] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-26 19:06:08,281 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Yoana\Desktop\Cinema-Booking-System\cinema\CinemaBookingSystem\src\main\resources
+2016-06-26 19:06:08,323 [Worker-95] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-26 19:06:08,380 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Yoana\Desktop\Cinema-Booking-System\cinema\CinemaBookingSystem\src\test\resources
+2016-06-26 19:06:10,515 [Worker-102] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-26 19:06:10,536 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Yoana\Desktop\Cinema-Booking-System\cinema\CinemaBookingSystem\src\main\resources
+2016-06-26 19:06:10,555 [Worker-102] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-26 19:06:10,615 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Yoana\Desktop\Cinema-Booking-System\cinema\CinemaBookingSystem\src\test\resources
+2016-06-26 19:08:38,337 [Worker-97] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-26 19:08:38,348 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Yoana\Desktop\Cinema-Booking-System\cinema\CinemaBookingSystem\src\main\resources
+2016-06-26 19:08:38,357 [Worker-97] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-26 19:08:38,375 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Yoana\Desktop\Cinema-Booking-System\cinema\CinemaBookingSystem\src\test\resources
+2016-06-26 19:08:56,481 [Worker-97] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-26 19:08:56,497 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Yoana\Desktop\Cinema-Booking-System\cinema\CinemaBookingSystem\src\main\resources
+2016-06-26 19:08:56,512 [Worker-97] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-26 19:08:56,533 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Yoana\Desktop\Cinema-Booking-System\cinema\CinemaBookingSystem\src\test\resources
+2016-06-26 19:09:09,732 [Worker-99] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-26 19:09:09,743 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Yoana\Desktop\Cinema-Booking-System\cinema\CinemaBookingSystem\src\main\resources
+2016-06-26 19:09:09,753 [Worker-99] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-26 19:09:09,770 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Yoana\Desktop\Cinema-Booking-System\cinema\CinemaBookingSystem\src\test\resources
+2016-06-26 19:10:25,175 [Worker-97] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-26 19:10:25,192 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Yoana\Desktop\Cinema-Booking-System\cinema\CinemaBookingSystem\src\main\resources
+2016-06-26 19:10:25,205 [Worker-97] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-26 19:10:25,233 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Yoana\Desktop\Cinema-Booking-System\cinema\CinemaBookingSystem\src\test\resources
+2016-06-26 19:12:59,190 [Worker-105] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-26 19:12:59,208 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Yoana\Desktop\Cinema-Booking-System\cinema\CinemaBookingSystem\src\main\resources
+2016-06-26 19:12:59,222 [Worker-105] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-26 19:12:59,250 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Yoana\Desktop\Cinema-Booking-System\cinema\CinemaBookingSystem\src\test\resources
+2016-06-28 13:38:37,320 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-28 13:38:37,373 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Yoana\Desktop\Cinema-Booking-System\cinema\CinemaBookingSystem\src\main\resources
+2016-06-28 13:38:37,379 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-28 13:38:37,394 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Yoana\Desktop\Cinema-Booking-System\cinema\CinemaBookingSystem\src\test\resources
+2016-06-28 16:34:09,801 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-28 16:34:09,833 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Yoana\Desktop\Cinema-Booking-System\cinema\CinemaBookingSystem\src\main\resources
+2016-06-28 16:34:09,836 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-28 16:34:09,844 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Yoana\Desktop\Cinema-Booking-System\cinema\CinemaBookingSystem\src\test\resources
+2016-06-28 19:48:09,843 [Worker-82] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-28 19:48:09,870 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Yoana\Desktop\Cinema-Booking-System\cinema\CinemaBookingSystem\src\main\resources
+2016-06-28 19:48:09,875 [Worker-82] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-28 19:48:09,911 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Yoana\Desktop\Cinema-Booking-System\cinema\CinemaBookingSystem\src\test\resources
+2016-06-28 19:49:55,208 [Worker-84] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-28 19:49:55,228 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Yoana\Desktop\Cinema-Booking-System\cinema\CinemaBookingSystem\src\main\resources
+2016-06-28 19:49:55,233 [Worker-84] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-28 19:49:55,250 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Yoana\Desktop\Cinema-Booking-System\cinema\CinemaBookingSystem\src\test\resources
+2016-06-28 19:54:34,888 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-28 19:54:34,914 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Yoana\Desktop\Cinema-Booking-System\cinema\CinemaBookingSystem\src\main\resources
+2016-06-28 19:54:34,922 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-28 19:54:34,938 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Yoana\Desktop\Cinema-Booking-System\cinema\CinemaBookingSystem\src\test\resources
+2016-06-28 19:55:52,872 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-28 19:55:52,892 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Yoana\Desktop\Cinema-Booking-System\cinema\CinemaBookingSystem\src\main\resources
+2016-06-28 19:55:52,896 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-28 19:55:52,931 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Yoana\Desktop\Cinema-Booking-System\cinema\CinemaBookingSystem\src\test\resources
+2016-06-28 19:55:57,361 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-28 19:55:57,373 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Yoana\Desktop\Cinema-Booking-System\cinema\CinemaBookingSystem\src\main\resources
+2016-06-28 19:55:57,376 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-28 19:55:57,458 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Yoana\Desktop\Cinema-Booking-System\cinema\CinemaBookingSystem\src\test\resources
+2016-06-28 20:25:12,838 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-28 20:25:12,856 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Yoana\Desktop\Cinema-Booking-System\cinema\CinemaBookingSystem\src\main\resources
+2016-06-28 20:25:12,861 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-28 20:25:12,882 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Yoana\Desktop\Cinema-Booking-System\cinema\CinemaBookingSystem\src\test\resources
+2016-06-28 20:26:31,375 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-28 20:26:31,393 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Yoana\Desktop\Cinema-Booking-System\cinema\CinemaBookingSystem\src\main\resources
+2016-06-28 20:26:31,397 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-28 20:26:31,414 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Yoana\Desktop\Cinema-Booking-System\cinema\CinemaBookingSystem\src\test\resources
+2016-06-29 00:27:08,080 [Worker-90] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-29 00:27:08,132 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Yoana\Desktop\Cinema-Booking-System\cinema\CinemaBookingSystem\src\main\resources
+2016-06-29 00:27:08,149 [Worker-90] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-29 00:27:08,178 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Yoana\Desktop\Cinema-Booking-System\cinema\CinemaBookingSystem\src\test\resources
+2016-06-29 00:27:18,821 [Worker-91] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-29 00:27:18,841 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Yoana\Desktop\Cinema-Booking-System\cinema\CinemaBookingSystem\src\main\resources
+2016-06-29 00:27:18,845 [Worker-91] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-29 00:27:18,862 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Yoana\Desktop\Cinema-Booking-System\cinema\CinemaBookingSystem\src\test\resources
+2016-06-29 00:38:17,288 [Worker-85] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-29 00:38:17,325 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Yoana\Desktop\Cinema-Booking-System\cinema\CinemaBookingSystem\src\main\resources
+2016-06-29 00:38:17,345 [Worker-85] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-29 00:38:17,367 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Yoana\Desktop\Cinema-Booking-System\cinema\CinemaBookingSystem\src\test\resources
+2016-06-29 00:45:26,167 [Worker-99] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-29 00:45:26,325 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Yoana\Desktop\Cinema-Booking-System\cinema\CinemaBookingSystem\src\main\resources
+2016-06-29 00:45:26,329 [Worker-99] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-29 00:45:26,344 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Yoana\Desktop\Cinema-Booking-System\cinema\CinemaBookingSystem\src\test\resources
+2016-06-29 00:47:04,715 [Worker-96] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-29 00:47:04,740 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Yoana\Desktop\Cinema-Booking-System\cinema\CinemaBookingSystem\src\main\resources
+2016-06-29 00:47:04,750 [Worker-96] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-29 00:47:04,762 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Yoana\Desktop\Cinema-Booking-System\cinema\CinemaBookingSystem\src\test\resources
+2016-06-29 09:23:20,161 [Worker-115] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-29 09:23:20,649 [Worker-115] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Yoana\Desktop\Cinema-Booking-System\cinema\CinemaBookingSystem\src\main\resources
+2016-06-29 09:23:20,719 [Worker-115] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-06-29 09:23:20,733 [Worker-115] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Yoana\Desktop\Cinema-Booking-System\cinema\CinemaBookingSystem\src\test\resources

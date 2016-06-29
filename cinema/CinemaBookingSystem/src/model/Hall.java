@@ -42,6 +42,12 @@ public class Hall implements Serializable {
 		this.name = name;
 	}
 
+	public Hall(String name, int row, int col) {
+		this(name);
+		this.row = row;
+		this.col = col;
+	}
+
 	public String getName() {
 		return this.name;
 	}

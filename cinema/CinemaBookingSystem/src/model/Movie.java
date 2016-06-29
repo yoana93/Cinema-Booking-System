@@ -1,9 +1,10 @@
 package model;
 
 import java.io.Serializable;
+import java.time.LocalDateTime;
 
 import javax.persistence.*;
-import javax.xml.bind.annotation.XmlElement;
+//import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 
 import java.util.ArrayList;
@@ -32,7 +33,7 @@ public class Movie implements Serializable {
 	
 	@Temporal(TemporalType.TIMESTAMP)
 	@Column(name="starting_time")
-	private Date date;
+	private LocalDateTime date;
 	
 	@Column(name="duration_in_min")
 	private int durationInMin;
@@ -52,7 +53,7 @@ public class Movie implements Serializable {
 	public Movie() {
 	}
 	
-	public Movie(String movieName, Date date, int durationInMin, Hall hall) {
+	public Movie(String movieName, LocalDateTime date, int durationInMin, Hall hall) {
 		this();
 		this.movieName = movieName;
 		this.date = date;
@@ -61,7 +62,7 @@ public class Movie implements Serializable {
 	}
 	
 
-	public Movie(String movieName, Date date, int durationInMin, String description, String imgPath, Hall hall) {
+	public Movie(String movieName, LocalDateTime date, int durationInMin, String description, String imgPath, Hall hall) {
 		this(movieName, date, durationInMin, hall);
 		this.movieName = movieName;
 		this.date = date;
@@ -80,11 +81,11 @@ public class Movie implements Serializable {
 		this.movieName = movieName;
 	}
 
-	public Date getDate() {
+	public LocalDateTime getDate() {
 		return this.date;
 	}
 
-	public void setDate(Date date) {
+	public void setDate(LocalDateTime date) {
 		this.date = date;
 	}
 

@@ -13,6 +13,11 @@ import model.Ticket;
 public class TicketDAO {
     @PersistenceContext
     private EntityManager em;
+    
+	public void addTicket(Ticket t) {
+		em.persist(t);
+		em.flush();
+	}
 
     public List<Ticket> getAll() {
         String txtQuery = "SELECT t FROM Ticket t";

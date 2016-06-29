@@ -1,2 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="model.Hall"/>
+<fullyQualifiedTypeName name="model.Movie"/>
+<fullyQualifiedTypeName name="java.time.format.DateTimeFormatter"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="java.time.LocalDateTime"/>
+<fullyQualifiedTypeName name="model.Ticket"/>
+<fullyQualifiedTypeName name="dao.TicketDAO"/>
+</qualifiedTypeNameHistroy>

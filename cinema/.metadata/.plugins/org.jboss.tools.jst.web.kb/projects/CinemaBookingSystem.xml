@@ -134,9 +134,29 @@
  <validation>
   <core validator-id="jsf-verification"/>
   <core validator-id="jboss.cdi.core"/>
-  <el/>
+  <el>
+   <linked-el length="24" name="%0" offset="478" path="%1"/>
+   <linked-el length="22" name="%0" offset="405" path="%1"/>
+   <linked-el length="24" name="%0" offset="533" path="%1"/>
+   <linked-el length="24" name="%2" offset="478" path="%1"/>
+   <linked-el length="22" name="%3" offset="405" path="%1"/>
+   <linked-el length="24" name="%4" offset="533" path="%1"/>
+  </el>
  </validation>
- <aliases/>
+ <aliases>
+  <alias path="msg" value="%0"/>
+  <alias path="msg.welcomeHeading" value="%2"/>
+  <alias path="/CinemaBookingSystem/WebContent/index.xhtml" value="%1"/>
+  <alias path="msg.welcomeTitle" value="%3"/>
+  <alias path="msg.welcomeMessage" value="%4"/>
+ </aliases>
  <includes/>
- <uris/>
+ <uris>
+  <uri value="http://java.sun.com/jsf/core">
+   <prefix>f</prefix>
+  </uri>
+  <uri value="http://java.sun.com/jsf/html">
+   <prefix>h</prefix>
+  </uri>
+ </uris>
 </kb-project>
