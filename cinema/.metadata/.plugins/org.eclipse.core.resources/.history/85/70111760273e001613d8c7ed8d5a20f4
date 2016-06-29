@@ -1,0 +1,152 @@
+package model;
+
+import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.OneToMany;
+import javax.persistence.Table;
+import javax.xml.bind.annotation.XmlRootElement;
+
+@Entity
+@XmlRootElement
+@Table(name = "USERS")
+public class User implements Serializable {
+
+    private static final long serialVersionUID = -7196507424378163030L;
+    
+    @Column(name="username")
+    private String userName;
+
+    @Column(name="password")
+    private String password;
+    
+    @Column(name="is_customer")
+    private boolean isCustomer;
+    
+    @Column(name="email")
+    private String email;
+
+    //bi-directional many-to-one association to Reservation
+    @OneToMany(mappedBy="username")
+    private List<Ticket> reservations = new ArrayList<>();;
+
+    public User() {
+    	System.out.println("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@");
+    }
+
+    public User(String userName, String password, String email) {
+    	this();
+        this.userName = userName;
+        this.password = password;
+        this.email=email;
+        this.isCustomer = false;
+    }
+    public User(String userName, String password, String email, boolean isCustomer) {
+       this(userName, password, email);
+        this.isCustomer = isCustomer;
+    }
+
+    public String getUserName() {
+        return userName;
+    }
+
+    public void setUserName(String userName) {
+        this.userName = userName;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+    
+    public List<Ticket> getTickets() {
+        return this.reservations;
+    }
+
+    public void setReservations(List<Ticket> reservations) {
+        this.reservations = reservations;
+    }
+
+    public Ticket addReservation(Ticket reservation) {
+        getTickets().add(reservation);
+        reservation.setUserName(this.getUserName());
+
+        return reservation;
+    }
+
+    public Ticket removeReservation(Ticket reservation) {
+        getTickets().remove(reservation);
+        reservation.setUserName(null);
+
+        return reservation;
+    }
+
+    @Override
+    public String toString() {
+        String result = getClass().getSimpleName() + " ";
+        if (userName != null && !userName.trim().isEmpty())
+            result += "userName: " + userName;
+        if (password != null && !password.trim().isEmpty())
+            result += ", password: " + password;
+        result += ", is supervisor: " + isCustomer;
+        return result;
+    }
+
+
+  
+
+    @Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + ((email == null) ? 0 : email.hashCode());
+		result = prime * result + (isCustomer ? 1231 : 1237);
+		result = prime * result + ((password == null) ? 0 : password.hashCode());
+		result = prime * result + ((userName == null) ? 0 : userName.hashCode());
+		return result;
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		User other = (User) obj;
+		if (email == null) {
+			if (other.email != null)
+				return false;
+		} else if (!email.equals(other.email))
+			return false;
+		if (isCustomer != other.isCustomer)
+			return false;
+		if (password == null) {
+			if (other.password != null)
+				return false;
+		} else if (!password.equals(other.password))
+			return false;
+		if (userName == null) {
+			if (other.userName != null)
+				return false;
+		} else if (!userName.equals(other.userName))
+			return false;
+		return true;
+	}
+
+    public boolean isCustomer() {
+        return isCustomer;
+    }
+
+    public void setCustomer(boolean isCustomer) {
+        this.isCustomer = isCustomer;
+    }
+    
+}

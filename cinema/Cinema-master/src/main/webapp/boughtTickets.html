@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Bought tickets</title>
+<link rel="stylesheet" type="text/css" href="styles/bootstrap.css" />
+<link rel="stylesheet" type="text/css" href="styles/library.css" />
+<script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
+<script>
+function drawTableWithMovies() {
+    $.ajax({
+        url : 'rest/movie',
+        type : "GET",
+        dataType : "json",
+        success : function(data) {
+            renderTable(data);
+        }
+    });
+}
+drawTableWithMovies();
+function renderTable(data) {
+    $("#hall").html(' ');
+    var movie = data.movie;
+    for (var i = 0; i < movie.length; i++) {
+        renderRow(movie[i]);
+    }
+}
+
+function renderRow(rowData) {
+	var link = $("<button>View Tickets</button>");
+    var row = $("<tr />")
+    $("#movie_table").append(row);
+    row.append($("<td>" + rowData.movieName + "</td>"));
+    row.append($("<td>" + rowData.startingTime + "</td>"));
+    row.append($("<td> Price : 8 BGN </td>"));
+    row.append($("<td>" +'<button onclick="display_tickets(\'' + rowData.movieName + '\')\">View Tickets</button>'  + '</td>'));
+}
+	
+function display_tickets(movie){
+	 $.ajax({
+		 url : 'rest/employee/movies/'+movie,
+		 type : "GET",
+		 dataType : "json",
+		 success : function(data) {
+			$("#tickets").html("");
+			 var val = data.seat;
+			 var table = $("<table/>");
+			 var row = $("<tr/>");
+			 table.append(row);
+				 val.forEach(function(object) {
+		    	 row.append($('<td><pre>col: ' + object.col + " </pre></td>"));
+				 row.append($('<td><pre>row: ' + object.row + " </pre></td>"));
+				 row.append($('<td><pre>hall: ' + object.hall.name + " </pre></td>"));
+				 table.append(row);
+				 row = $("<tr/>");
+			});
+			$("#tickets").append(table);	 
+		 }
+	 
+	 });
+
+}
+</script>
+</head>
+<body >
+<table id="movie_table" class="table">
+		
+	</table>
+	<div id="tickets" class="ticket"></div>
+	
+</body>
+</html>

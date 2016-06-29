@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Java EE Project</title>
+<link rel="stylesheet" type="text/css" href="styles/bootstrap.css" />
+<link rel="stylesheet" type="text/css" href="styles/library.css" />
+<script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
+<script type="text/javascript">
+    isUserAuthenticated = false;
+    
+	$(document).ready(function() {
+		$.ajax({
+		    url: 'rest/user/authenticated',
+		    type: "GET",
+            dataType : "json",
+		    statusCode: {
+			        200: function() {
+			        	$(".reserved_seats").hide();
+			        	$( ".login_register" ).hide();
+                        isUserAuthenticated = true;
+			        },
+			        404: function() {
+			        	$('.allTickets').hide();
+			        	$('.reserved_seats').hide();
+			        	$('.logout').hide();
+			        }
+		        }
+		    });
+		
+        drawTableWithMovies();
+		$.ajax({
+			url:'rest/user/supervisor',
+			type:"GET",
+			dataType:'text',
+			success: function(answer) {
+				if(answer === 'true'){
+					$(".reserved_seats").show();
+					$('.allTickets').hide();
+		        	$( ".login_register" ).hide();
+				}
+			}
+		});
+        $.ajax({
+            url: 'rest/user/current',
+            type: "GET",
+            dataType : "text"
+        }).always(function(data){
+            if (typeof data != 'undefined') {
+                $("#user-holder").text(data);
+            } else {
+                $(".welcome-greeting").hide();
+            }
+        });
+	});
+
+    function drawTableWithMovies() {
+        $.ajax({
+            url : 'rest/movie',
+            type : "GET",
+            dataType : "json",
+            success : function(data) {
+                renderTable(data);
+            }
+        });
+    }
+
+    function renderTable(data) {
+        $("#hall").html(' ');
+        var movie = data.movie;
+        for (var i = 0; i < movie.length; i++) {
+            renderRow(movie[i]);
+        }
+    }
+
+    function renderRow(rowData) {
+    	var link = $("<button>Reserve</button>");
+        var row = $("<tr />")
+        $("#movie_table").append(row);
+        row.append($("<td>" + rowData.movieName + "</td>"));
+        row.append($("<td>" + rowData.startingTime + "</td>"))
+        row.append($("<td> Price : 8 BGN </td>"));
+        row.append($("<td>" +"<button onclick=getSeats(" + rowData.id + ")>Reserve</button>"  + "</td>"));
+        if (isUserAuthenticated && rowData.amount > 0) {
+            var borrowTd = $("<td />");
+            
+            borrowTd.append(link);
+            row.append(borrowTd);
+            link.click(function() {
+                $.ajax({
+                    url: 'rest/movie/seats?id=' + rowData.id,
+                    type: "PUT",
+                    dataType: "json",
+                    success: drawTableWithMovies
+                });
+            });
+        } else {
+            row.append($("<td/>"));
+        }
+    }
+    
+    function logout() {
+    	$.ajax({
+            url: 'rest/user/logout',
+            type: "GET",
+            dataType: "text"
+        }).always(function(data){
+        	window.location.replace("login.html");
+        });
+    }
+    
+  
+    function drawHall(row,movieId) {
+        $("#hall").html(' ');
+    	row.forEach(function(colls) {
+    		var row = $("<tr/>")
+    		colls.forEach(function(element) {
+    			if(element.taken == true)
+    				row.append($("<td class='seats is_taken'>"+element.id+"</td>"));
+    			else {
+    				var freeSeat = $("<td class='seats' onclick=\"reserve("+element+")\">"+element.id+"</td>");
+    				freeSeat.click(function() {
+    					$.ajax({
+    						url: 'rest/movie/reserve/'+movieId+"/"+element.id,
+    						type: "GET",
+    						dataType: "text",
+    						success: function(){
+    							element.taken = !element.taken;
+        						if(element.taken)
+        							freeSeat.css('background-color','yellow');
+        						else
+        							freeSeat.css('background-color','green');
+    						}
+    					});		
+    				});
+    				row.append(freeSeat);
+    			}
+    			})
+    		 $('#hall').append(row);
+    	});
+    }
+    
+    function getSeats(movieId) {
+    	$.ajax({
+            url: 'rest/movie/seats/'+movieId,
+            type: "GET",
+            dataType: "text",
+            success: function(places) {
+            	var col = [];
+            	var row = [];
+            	var places = JSON.parse(places);
+           		places.seatTrans.forEach(function(element) {
+            		if(row[element.row - 1] === undefined)
+            			row[element.row - 1] = [];
+             		row[element.row-1][element.col-1] = {taken: element.isTaken, id: element.id};
+            		var b = row[element.row];            		
+            	});
+           		drawHall(row,movieId);
+            }
+        });
+    }
+  /*  function tickets(){
+    	$.ajax({
+    		url:'rest/user/findUser/',
+    		type: 'GET',
+    		dataType: "text",
+    		success: function(id) {
+    			$.ajax({
+    				url:'',
+    				type : 'GET',
+    				dataType: "text",
+    				success: function(){
+    					
+    				}
+    			})
+    		}
+    	})
+    }*/
+
+</script>
+
+</head>
+<body>
+	<div align="center">
+		<h1>Cinema Theatre</h1>
+	</div>
+		<div>
+	 <table id="movie_table" class="table">
+			<tr>
+				<th>ID</th>
+				<th>Movie</th>
+			</tr>
+		</table>
+	</div>
+
+	<div class="login_register">
+		<a href="login.html" class="login_form"> Log in </a>
+        <a href="register.html" class="register_form"> Register </a>
+	</div>
+	
+	 <div class="reserved_seats">
+	 	<a href="boughtTickets.html" style="display:block">All bought ticket for projections</a>
+	 	<a href="allTickets.html">All tickets for users</a>
+ 	</div>
+ 	
+	<div class="logout">
+		<a onclick="logout()"> Logout </a>
+	</div>
+	
+	<div class="allTickets">
+		<a onclick="tickets()"> Get All tickets </a>
+	</div>
+	
+    <div class="welcome-greeting">Welcome <span id="user-holder"></span> !</div>
+    <table id="hall">
+    
+    </table>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>All tickets</title>
+<link rel="stylesheet" type="text/css" href="styles/bootstrap.css" />
+<link rel="stylesheet" type="text/css" href="styles/library.css" />
+<script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
+<script>
+function drawTableWithUsers() {
+	$.ajax({
+        url : 'rest/user/all',
+        type : "GET",
+        dataType : "json",
+        success : function(data) {
+            renderTable(data.user);
+        }
+    });
+}
+drawTableWithUsers();
+function renderTable(data) {
+	;
+    $("#hall").html(' ');
+    var user = data;
+    for (var i = 0; i < user.length; i++) {
+        renderRow(user[i]);
+    }
+}
+
+function renderRow(rowData) {
+    var row = $("<tr />")
+    $("#user_table").append(row);
+    row.append($("<td>" + rowData.userName + "</td>"));
+    row.append($("<td><button>View Tickets<button></td>"));
+
+   
+   
+}
+	
+</script>
+</head>
+<body>
+	<table id="user_table">
+		
+	</table>
+	<div class="ticket">
+	</div>
+</body>
+</html>

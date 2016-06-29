@@ -1,0 +1,14 @@
+package services;
+
+import javax.ejb.EJB;
+import javax.servlet.ServletException;
+
+public class Demo {
+
+		 @EJB
+		 private static DataInsert tmp;
+		 
+		 public static void main(String[] args) throws ServletException {
+		tmp.init();
+		}
+}

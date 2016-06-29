@@ -27,18 +27,25 @@ public class User implements Serializable {
     private boolean isCustomer;
     
     @Column(name="email")
-    private boolean email;
+    private String email;
 
     //bi-directional many-to-one association to Reservation
     @OneToMany(mappedBy="username")
     private List<Ticket> reservations = new ArrayList<>();;
 
     public User() {
+   
     }
 
-    public User(String userName, String password, String email, boolean isCustomer) {
+    public User(String userName, String password, String email) {
+    	this();
         this.userName = userName;
         this.password = password;
+        this.email=email;
+        this.isCustomer = false;
+    }
+    public User(String userName, String password, String email, boolean isCustomer) {
+       this(userName, password, email);
         this.isCustomer = isCustomer;
     }
 
@@ -92,48 +99,47 @@ public class User implements Serializable {
     }
 
 
-    @Override
-    public int hashCode() {
-        final int prime = 31;
-        int result = 1;
-        result = prime * result + (email ? 1231 : 1237);
-        result = prime * result + (isCustomer ? 1231 : 1237);
-        result = prime * result + ((password == null) ? 0 : password.hashCode());
-        result = prime * result + ((reservations == null) ? 0 : reservations.hashCode());
-        result = prime * result + ((userName == null) ? 0 : userName.hashCode());
-        return result;
-    }
+  
 
     @Override
-    public boolean equals(Object obj) {
-        if (this == obj)
-            return true;
-        if (obj == null)
-            return false;
-        if (getClass() != obj.getClass())
-            return false;
-        User other = (User) obj;
-        if (email != other.email)
-            return false;
-        if (isCustomer != other.isCustomer)
-            return false;
-        if (password == null) {
-            if (other.password != null)
-                return false;
-        } else if (!password.equals(other.password))
-            return false;
-        if (reservations == null) {
-            if (other.reservations != null)
-                return false;
-        } else if (!reservations.equals(other.reservations))
-            return false;
-        if (userName == null) {
-            if (other.userName != null)
-                return false;
-        } else if (!userName.equals(other.userName))
-            return false;
-        return true;
-    }
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + ((email == null) ? 0 : email.hashCode());
+		result = prime * result + (isCustomer ? 1231 : 1237);
+		result = prime * result + ((password == null) ? 0 : password.hashCode());
+		result = prime * result + ((userName == null) ? 0 : userName.hashCode());
+		return result;
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		User other = (User) obj;
+		if (email == null) {
+			if (other.email != null)
+				return false;
+		} else if (!email.equals(other.email))
+			return false;
+		if (isCustomer != other.isCustomer)
+			return false;
+		if (password == null) {
+			if (other.password != null)
+				return false;
+		} else if (!password.equals(other.password))
+			return false;
+		if (userName == null) {
+			if (other.userName != null)
+				return false;
+		} else if (!userName.equals(other.userName))
+			return false;
+		return true;
+	}
 
     public boolean isCustomer() {
         return isCustomer;

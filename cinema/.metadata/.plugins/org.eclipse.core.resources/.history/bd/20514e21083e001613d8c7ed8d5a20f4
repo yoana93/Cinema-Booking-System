@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Sign Up</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script type="text/javascript">
+	function register() {
+	    var formUrl = $("#register_form").attr("action");
+	    var username = $("#userName")[0].value;
+	    var password = $("#pwd")[0].value;
+	    var email = $("#email")[0].value;
+	    
+	    if(!isPasswordValid(password)) {
+	        return ;
+	    }
+	    
+	    var data = { user : {
+		            userName : username,
+		            password : password,
+		            email : email
+    			}
+	    }
+	    
+		$.ajax({
+		    url: 'rest/user',
+		    type: "POST",
+		    contentType: "application/json;charset=UTF-8",
+		    data: JSON.stringify(data)
+		})
+		.success(function(data) {
+		    $("#register_form").attr("action", "MoviesPage.html");
+		})
+		.fail(function(data) {
+		    $("#register_form").attr("action", "signUpPage.html");
+
+		})
+		.always(function() {
+                    $("#register_form").submit();
+        });
+    }
+
+    function isPasswordValid(password) {
+        var confirmPassword = $("#conf_pwd")[0].value;
+
+        if (password == "" || confirmPassword == "") {
+            alert("Please fill both fields for password and try again.");
+            return false;
+        }
+
+        if (password != confirmPassword) {
+            alert("Two passwords do not match. Please correct the values and try again.");
+            return false;
+        }
+        return true;
+    }
+</script>
+  <style type="text/css">
+    .centered {
+    position:absolute;
+    display:block;
+    left:40%;
+    top:40%;
+    margin-top:-40px;
+    margin-left:-40px;
+    }
+  </style>
+</head>
+<body>
+<div class="container centered">
+    <div class="row">
+      <div class="col-md-10">
+        <h1>Sign Up</h1>
+        <form id="register_form"  class="form form-horizontal" role="form" method="post">
+         <div class="form-group">
+           <div class="col-md-3">
+             <label for="usename">User:</label>
+             <input type="text" class="form-control" id="username" placeholder="Enter username">
+           </div>
+         </div>
+         <div class="form-group">
+           <div class="col-md-3">
+            <label for="pwd">Password:</label>
+            <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+          </div>
+        </div>
+        <div class="form-group">
+           <div class="col-md-3">
+            <label for="pwd">Email:</label>
+            <input type="text" class="form-control" id="email" placeholder="Enter Email">
+          </div>
+        </div>
+        <div class="form-group">
+         <div class="col-md-3">
+          <button class="btn btn-primary" type="signIn" onclick="register()">Sign Up</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+</div>
+
+</body>
+</html>

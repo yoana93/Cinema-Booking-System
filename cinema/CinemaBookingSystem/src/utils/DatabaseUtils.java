@@ -101,6 +101,7 @@ public class DatabaseUtils {
 
     private void addTestUsers() {
         for (User user : USERS) {
+        	UserDAO userDAO=new UserDAO();
             userDAO.addUser(user);
            
         }

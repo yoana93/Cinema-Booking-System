@@ -133,22 +133,28 @@
  </paths>
  <validation>
   <core validator-id="jsf-verification"/>
-  <core validator-id="jboss.cdi.core"/>
+  <core validator-id="jboss.cdi.core">
+   <linked-resource name="%1;" path="%0"/>
+   <linked-resource name="%1;" path="%2"/>
+  </core>
   <el>
-   <linked-el length="24" name="%0" offset="478" path="%1"/>
-   <linked-el length="22" name="%0" offset="405" path="%1"/>
-   <linked-el length="24" name="%0" offset="533" path="%1"/>
-   <linked-el length="24" name="%2" offset="478" path="%1"/>
-   <linked-el length="22" name="%3" offset="405" path="%1"/>
-   <linked-el length="24" name="%4" offset="533" path="%1"/>
+   <linked-el length="24" name="%3" offset="478" path="%4"/>
+   <linked-el length="22" name="%3" offset="405" path="%4"/>
+   <linked-el length="24" name="%3" offset="533" path="%4"/>
+   <linked-el length="24" name="%5" offset="478" path="%4"/>
+   <linked-el length="22" name="%6" offset="405" path="%4"/>
+   <linked-el length="24" name="%7" offset="533" path="%4"/>
   </el>
  </validation>
  <aliases>
-  <alias path="msg" value="%0"/>
-  <alias path="msg.welcomeHeading" value="%2"/>
-  <alias path="/CinemaBookingSystem/WebContent/index.xhtml" value="%1"/>
-  <alias path="msg.welcomeTitle" value="%3"/>
-  <alias path="msg.welcomeMessage" value="%4"/>
+  <alias path="msg" value="%3"/>
+  <alias path="msg.welcomeHeading" value="%5"/>
+  <alias path="/CinemaBookingSystem/src/services/UserContext.java" value="%2"/>
+  <alias path="/CinemaBookingSystem/src/services/UserManager.java" value="%1"/>
+  <alias path="/CinemaBookingSystem/WebContent/index.xhtml" value="%4"/>
+  <alias path="/CinemaBookingSystem/src/dao/UserDAO.java" value="%0"/>
+  <alias path="msg.welcomeTitle" value="%6"/>
+  <alias path="msg.welcomeMessage" value="%7"/>
  </aliases>
  <includes/>
  <uris>

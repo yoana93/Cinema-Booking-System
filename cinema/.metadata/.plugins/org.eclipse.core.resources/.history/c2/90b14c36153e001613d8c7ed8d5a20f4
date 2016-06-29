@@ -1,0 +1,28 @@
+package services;
+
+import javax.annotation.PostConstruct;
+import javax.ejb.EJB;
+import javax.ejb.Singleton;
+import javax.ejb.Startup;
+import javax.servlet.ServletException;
+
+import utils.DatabaseUtils;
+
+/**
+ * Session Bean implementation class DataInsert
+ */
+@Singleton
+@Startup
+public class DataInsert {
+    
+    @EJB
+    private DatabaseUtils utils;
+    
+    public DataInsert() {
+    }
+    
+    @PostConstruct
+    public void init() throws ServletException {
+        utils.addTestDataToDB();
+    }
+}
